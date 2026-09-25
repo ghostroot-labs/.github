@@ -1,0 +1,33 @@
+<svg width="160" height="160" viewBox="0 0 160 160" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="ghostroot icon">
+  <defs>
+    <linearGradient id="gr" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#5EEAD4"/>
+      <stop offset="1" stop-color="#22D3EE"/>
+    </linearGradient>
+  </defs>
+  <rect x="2" y="2" width="156" height="156" rx="36" fill="#0B0F14" stroke="#1C2530" stroke-width="2"/>
+  <!-- ghost mark: dome top, scalloped skirt -->
+  <path d="M44 118 V66 a36 36 0 0 1 72 0 V118 a9 9 0 0 1 -18 0 a9 9 0 0 1 -18 0 a9 9 0 0 1 -18 0 a9 9 0 0 1 -18 0 Z"
+        fill="url(#gr)"/>
+  <!-- eyes -->
+  <rect x="63" y="64" width="12" height="19" rx="6" fill="#0B0F14"/>
+  <rect x="85" y="64" width="12" height="19" rx="6" fill="#0B0F14"/>
+  <!-- root prompt mouth: ghost + root -->
+  <text x="80" y="104" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="19" font-weight="700" fill="#0B0F14">#</text>
+  <!-- pirate hat: bicorne + skull & crossbones, cocked 40 deg to the left -->
+  <g transform="translate(74,33) rotate(-40) scale(0.58) translate(-60,-58)">
+    <path d="M14 50 C6 26,4 14,18 12 C30 10,40 22,60 22 C80 22,90 10,102 12 C116 14,114 26,106 50 C92 62,76 66,60 64 C44 66,28 62,14 50 Z" fill="#0B0F14" stroke="#2DD4BF" stroke-width="2.6"/>
+    <g stroke="#E6EDF3" stroke-width="5" stroke-linecap="round">
+      <line x1="45" y1="31" x2="75" y2="53"/>
+      <line x1="75" y1="31" x2="45" y2="53"/>
+    </g>
+    <circle cx="45" cy="31" r="3.4" fill="#E6EDF3"/><circle cx="75" cy="53" r="3.4" fill="#E6EDF3"/>
+    <circle cx="75" cy="31" r="3.4" fill="#E6EDF3"/><circle cx="45" cy="53" r="3.4" fill="#E6EDF3"/>
+    <circle cx="60" cy="38" r="11" fill="#E6EDF3"/>
+    <rect x="53" y="44" width="14" height="9" rx="4.5" fill="#E6EDF3"/>
+    <circle cx="55.5" cy="37" r="2.7" fill="#0B0F14"/>
+    <circle cx="64.5" cy="37" r="2.7" fill="#0B0F14"/>
+    <path d="M60 40 l-2.2 4 h4.4 z" fill="#0B0F14"/>
+    <path d="M56.5 49 v3 M60 49 v3.5 M63.5 49 v3" stroke="#0B0F14" stroke-width="1.2" stroke-linecap="round"/>
+  </g>
+</svg>

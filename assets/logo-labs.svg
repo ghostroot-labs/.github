@@ -1,0 +1,46 @@
+<svg width="1000" height="220" viewBox="0 0 1000 220" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="ghostroot labs">
+  <defs>
+    <linearGradient id="gr" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#5EEAD4"/>
+      <stop offset="1" stop-color="#22D3EE"/>
+    </linearGradient>
+  </defs>
+  <rect x="1" y="1" width="998" height="218" rx="26" fill="#0B0F14" stroke="#1C2530" stroke-width="2"/>
+
+  <!-- mark -->
+  <g transform="translate(60,52)">
+    <path d="M18 116 V60 a40 40 0 0 1 80 0 V116 a10 10 0 0 1 -20 0 a10 10 0 0 1 -20 0 a10 10 0 0 1 -20 0 a10 10 0 0 1 -20 0 Z"
+          fill="url(#gr)"/>
+    <rect x="41" y="58" width="13" height="21" rx="6" fill="#0B0F14"/>
+    <rect x="62" y="58" width="13" height="21" rx="6" fill="#0B0F14"/>
+    <text x="58" y="102" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="21" font-weight="700" fill="#0B0F14">#</text>
+    <!-- pirate hat: bicorne + skull & crossbones, cocked 40 deg to the left -->
+    <g transform="translate(52,21) rotate(-40) scale(0.6) translate(-60,-58)">
+      <path d="M14 50 C6 26,4 14,18 12 C30 10,40 22,60 22 C80 22,90 10,102 12 C116 14,114 26,106 50 C92 62,76 66,60 64 C44 66,28 62,14 50 Z" fill="#0B0F14" stroke="#2DD4BF" stroke-width="2.6"/>
+      <g stroke="#E6EDF3" stroke-width="5" stroke-linecap="round">
+        <line x1="45" y1="31" x2="75" y2="53"/>
+        <line x1="75" y1="31" x2="45" y2="53"/>
+      </g>
+      <circle cx="45" cy="31" r="3.4" fill="#E6EDF3"/><circle cx="75" cy="53" r="3.4" fill="#E6EDF3"/>
+      <circle cx="75" cy="31" r="3.4" fill="#E6EDF3"/><circle cx="45" cy="53" r="3.4" fill="#E6EDF3"/>
+      <circle cx="60" cy="38" r="11" fill="#E6EDF3"/>
+      <rect x="53" y="44" width="14" height="9" rx="4.5" fill="#E6EDF3"/>
+      <circle cx="55.5" cy="37" r="2.7" fill="#0B0F14"/>
+      <circle cx="64.5" cy="37" r="2.7" fill="#0B0F14"/>
+      <path d="M60 40 l-2.2 4 h4.4 z" fill="#0B0F14"/>
+      <path d="M56.5 49 v3 M60 49 v3.5 M63.5 49 v3" stroke="#0B0F14" stroke-width="1.2" stroke-linecap="round"/>
+    </g>
+  </g>
+
+  <!-- wordmark -->
+  <text x="210" y="118" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="72" font-weight="700" letter-spacing="-1.5">
+    <tspan fill="#E6EDF3">ghost</tspan><tspan fill="#2DD4BF">root</tspan>
+  </text>
+
+  <!-- LABS badge -->
+  <rect x="612" y="72" width="132" height="46" rx="11" fill="none" stroke="#2DD4BF" stroke-width="2.5"/>
+  <text x="678" y="104" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="30" font-weight="700" letter-spacing="6" fill="#2DD4BF">LABS</text>
+
+  <!-- tagline -->
+  <text x="212" y="162" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="21" fill="#7D8894">disposable pentest boxes · one binary</text>
+</svg>
