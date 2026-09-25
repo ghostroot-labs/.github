@@ -20,13 +20,13 @@ no trace.
 ## ghostroot
 
 One binary to spin up, manage, and tear down disposable, fully-loaded pentest
-containers — with the VPN kill-switch, scope enforcement, and panic-wipe
+containers and red team infrastructure — with the VPN kill-switch, scope enforcement, and panic-wipe
 built in. AI-native: drive it yourself, or let Claude / Codex / any MCP
 client run the engagement.
 
 ```bash
 curl -fsSL https://raw.githubusercontent.com/huntOS-git/ghostro/main/install.sh | sh
-ghostroot start myjob --image ad     # 115 ms to a loaded shell
+ghostroot start HTB-box --image ad     # 115 ms to a loaded shell
 ```
 
 **[ghostroot-labs/ghostroot](https://github.com/ghostroot-labs/ghostroot)** ·
